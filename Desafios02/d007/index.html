@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente <em>ampliar</em> o tamanho da sua janela para aproveitar a melhor experiência</p>
+
+    <midia class="imagem-flexivel">
+        <img src="midia/paisagem-g.png" alt="Descrição da Imagem"
+                srcset="midia/paisagem-p.png 400w,
+                        midia/paisagem-m.png 600w,
+                        midia/paisagem-g.png 1000w"
+                sizes="(max-width: 750px) 400px,
+                       (max-width: 1250px) 600px,
+                       1000px">
+    </midia>
+   
+</body>
+</html>

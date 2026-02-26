@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    height: auto
+} * 
+
+body {
+   
+    background-image: linear-gradient(to top, #CDD5C6, #D7D0C2, #FFE2C3);
+    background-attachment: fixed;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16px;
+    /*  TAMANHO DA FONTE
+    
+            MEDIDA ABSOLUTA: cm, mm, in, px, pt, pc
+    
+            MEDIDA RELATIVA: em, ex, rem, vw, vh, %
+            
+            Seguindo o W3C, recomenda-se o uso de 'px e em' 
+            16px geralmente é o tamanho de '1 em'
+            
+        PESO DA FONTE
+
+            font-weight: indica o peso da fonte, que são: lighter, normal, bold e bolder, ou valores numéricos de 100 a 900.
+
+            font-style: indica o estilo da fonte, que são: normal, italic e oblique.
+
+            text-decoration: indica a decoração do texto, que são: none, underline, overline, line-through e blink.
+            
+    */
+
+}
+
+main {
+   
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 15px #B7BCBF;
+
+}
+
+h1 {
+        font: italic bolder 2em Verdana, Geneva, Tahoma, sans-serif;
+        /* 
+        shorthand font (maneira de condensar todas essas informações em uma unica linha)
+        font-style -> font-weight -> font-size/line-height -> font-family 
+        PRECISA SEGUIR ESSA ORDEM ACIMA, SE NÃO, NÃO FUNCIONA.
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; 
+        */
+        color: #042f47;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+        text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #042f47;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}

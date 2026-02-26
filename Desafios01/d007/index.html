@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurando expansões</title>
+</head>
+<body>
+
+    <h1>Imagem flexível &#X1F601</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência! &#X1F601</p>
+    
+    <picture>
+    
+        <source media="(max-width: 750px)" srcset="midia/paisagem-p.png" type="image/png"> 
+        <source media="(max-width: 1250px)" srcset="midia/paisagem-m.png" type="image/png">
+        <img src="midia/paisagem-g.png" width="95%" alt="A imagem flexível de uma paisagem com montanhas ao fundo e um campo verde na frente.">
+
+    </picture>    
+</body> 
+</html>

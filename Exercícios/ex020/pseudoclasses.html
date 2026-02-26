@@ -1,0 +1,54 @@
+<!DOCTYPE hml>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1-0">
+    <title>Página 1 - Pseudoclasses</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: rgb(151, 100, 33);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;    
+        }
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {
+            background-color: yellow;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline; 
+        }
+        a::after {
+            content: '  [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(145, 158, 157);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+    
+    <br>
+    <br>
+
+    <ul>
+        <li><a href="hover.html"><strong>Clique aqui para ir para a pagina Página 2 - HOVER</strong></a>
+    <br>
+    <br>
+        <li><a href="links.html"><strong>Clique aqui para ir para a pagina Página 3 - LINKS</strong></a>
+    </ul>
+</body>
+</html>
